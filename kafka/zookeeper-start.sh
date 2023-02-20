@@ -1,0 +1,1 @@
+docker run -d --name zookeeper --hostname zookeeper -p 2181:2181 --network kafka-network --network-alias zookeeper mytyan/zookeeper
